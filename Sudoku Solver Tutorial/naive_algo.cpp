@@ -4,8 +4,8 @@ int main()
 {
     //  Naive Algorithm for Pattern Searching
     int n, m;
-    char txt[n], pat[m];
     bool flag;
+    char txt[n], pat[m];
     cout << "enter the text size" << endl;
     cin >> n;
     cout << "enter the text" << endl;
