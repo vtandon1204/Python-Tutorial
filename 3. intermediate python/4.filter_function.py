@@ -6,4 +6,5 @@ def isOdd(x):
     return x%2!=0
 
 a = [1,2,3,4,5,6,8,9,10]
-# b = list(filter())
+b = list(filter(isOdd,a))
+
