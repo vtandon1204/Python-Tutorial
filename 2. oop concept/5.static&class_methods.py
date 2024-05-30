@@ -6,16 +6,16 @@ class Dog:
         self.dogs.append(self)
 
     @classmethod # decorators
-    def num_dogs(cls):     
+    def num_dogs(cls): # cls means the name of the class
             return len(cls.dogs)
         
-    @staticmethod 
+    @staticmethod # dont need the class to call them
+    # we pass only the parameters we use
     def bark(n):
             #barks n times
-
-            for _ in range(n):
+            for i in range(n):
                 print('Bark!')
-
+    
 class Math:
       @staticmethod
       def add(x, x2):

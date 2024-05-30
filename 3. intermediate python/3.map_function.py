@@ -9,7 +9,6 @@ def func(x):
 newList = []
 for x in li:
     newList.append(func(x))
-
 print(newList)
 
 # Method_2 (using map function)
@@ -18,4 +17,4 @@ print(newList)
 print(list(map(func,li))) # here, list is the keyword (in green color) & 'li' is the list we are using (in blue color).
 
 # Method_3
-print([func(x) for x in li if x%2==0])
+print([func(x) for x in li if x%2==0]) #functions is applied only to the even numbers in the list

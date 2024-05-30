@@ -5,8 +5,8 @@ class Point():
         self.coords=(self.x,self.y)
 
     def move(self,x,y):
-        self.x=x
-        self.y=y
+        self.x +=x
+        self.y +=y
 
     def __add__(self,p):
         return Point(self.x+p.x, self.y+p.y)
@@ -17,7 +17,7 @@ class Point():
     def __mul__(self,p):
         return self.x*p.x + self.y*p.y
     
-    def __str__(self): # To represent in a meaningful mehtod 
+    def __str__(self): # To represent in a meaningful method 
         return "("+str(self.x)+','+str(self.y)+")"
 
     def length(self):

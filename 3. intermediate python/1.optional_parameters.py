@@ -1,7 +1,7 @@
-def func(x=1): # deafault parameter = 1
+def func(x=1): # default parameter = 1
     return x**2
 
-call = func(5)
+call = func(5) # 5 overwrites the value of 1
 print(call)
 
 def func1(word, add=5, freq=1): # freq is an optional paraemter

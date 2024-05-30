@@ -13,13 +13,14 @@ class person(object):
     @staticmethod
     def isAdult(age): # static method: it can be called without creating any object of that class.
         # it is used when you dont need 'self' or actual object for that class
-        # it cannot access the class variables as it doesn't have acess to the class name
-        # it can only access the varibales that you pass in the parameter list
+        # it cannot access the class variables (population) as it doesn't have access to the class name
+        # it can only access the varibales that you pass in the parameter list (age )
         return age>=18
     
     def display(self):
         print(self.name, 'is', self.age, 'years old')
     
-person1 = person('vaibhav', 20)
+person1 = person('vaibhav', 20) # object of class person
 
 print(person.getPopulation()) # no object needed
+print(person.isAdult(3))
