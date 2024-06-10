@@ -1,14 +1,22 @@
+import time
 
-class vt:
-    def __new__(cls): # helps in term of creating a new instance
-        print("this is new")
-        
-    def __init__(self):
-        print("this is init")
-        self.phone=788
-    
-    def __str__(self):
-        return "this is magic call of str"
-    
-v = vt()
-print(v)
+def timer_test(func):
+    def inner_test_timer():
+        start = time.time()
+        func()
+        end = time.time()
+        print(end-start)
+    return inner_test_timer
+
+@timer_test
+def test2():
+    print(4+21)
+
+test2()
+
+@timer_test
+def test3():
+    for i in range(2318924):
+        pass
+
+test3()
