@@ -43,7 +43,7 @@ import time
 import threading
 def test1(id):
     for i in range(10):
-        print('test1 %d printing %d' %(id,i))
+        print('test1 %d printing %d %s' %(id,i,time.ctime()))
         time.sleep(1) 
 
 # test1(1)
