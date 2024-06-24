@@ -1,26 +1,33 @@
 # LISTS: collection of same/different datatypes
-fruits = ['apple', 'pear', 3]
-print(fruits)
+item1 = ['apple', 'pear', 3]
+print(item1)
 
 # printing single element of list
-print(fruits[1])
+print(item1[1])
 for i in range(0,3):
-    print(fruits[i])
+    print(item1[i])
 
-print(fruits[0:2]) # 2 index is not included
-print(fruits[-1]) # 1st index but from the last
+print(item1[0:2]) # 2 index is not included
+print(item1[-1]) # 1st index but from the last
 
 # change the existing element of the list
-fruits[1] = 'orange'
-print(fruits)
+item1[1] = 'orange'
+print(item1)
 
 # add an element to the list
-fruits.append('banana') # append() will add the element to the end of the list
-print(fruits)
+item1.append('banana') # append() will add the element to the end of the list
+print(item1)
 
 # inserting an element at a position
-fruits.insert(2,'peanuts')
-print(fruits)
+item1.insert(2,'peanuts')
+print(item1)
+
+# combining two or more lists
+item2 = ['shoes','watch','toys']
+print(item2)
+
+items = item1+item2
+print(items)
 
 # TUPLES: used for coordinates
 position = (2,3)
