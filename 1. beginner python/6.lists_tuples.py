@@ -28,7 +28,10 @@ print(item2)
 
 items = item1+item2
 print(items)
+print(len(items)) 
 
+print('shoes' in items)
+print('soda' in items)
 # TUPLES: used for coordinates
 position = (2,3)
 color = (255,255,255)
