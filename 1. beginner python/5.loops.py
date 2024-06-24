@@ -1,5 +1,5 @@
 # FOR LOOPS
-for x in range(0,10,5): #(start, stop, step) --> (int x=0,x<10,x++)
+for x in range(0,11,5): #(start, stop, step) --> (int x=0,x<10,x++)
     print(x)
     
 # WHILE LOOPS

@@ -1,9 +1,9 @@
 x=2
-name ='vaibhav'
+# name ='vaibhav'
 
 print('what is your name?')
 # Input function
-# name = input()
+name = input()
 print(name)
 print('hello,',name)
 
