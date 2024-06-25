@@ -1,4 +1,4 @@
-#  Globo & Loco variable
+#  Global & Local variable
 var = 9 # global varibale
 loop = True
 newVar = 23
