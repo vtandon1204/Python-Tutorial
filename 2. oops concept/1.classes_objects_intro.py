@@ -1,5 +1,5 @@
-# Object: 
-# Class: 
+# Object: specific instances of a class with common properties
+# Class: abstraction of sum entity having set of properties and methods
 import turtle
 x = 4 # here 'x' is an instance of 'int' class
 y = 'hello' # here 'y' is an instance of 'str' class
