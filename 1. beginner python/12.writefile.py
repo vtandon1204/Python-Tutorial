@@ -21,3 +21,10 @@ for line in f:
     
 f.close()
 f_out.close()
+
+
+with open("D:\\technical\\AI & ML\\1. Python\\1. beginner python\\file_word_count.txt","r") as f:
+    # now no need to close the file explicitly
+    print(f.read())
+    
+print(f.closed) # flag if file is closed or not 
