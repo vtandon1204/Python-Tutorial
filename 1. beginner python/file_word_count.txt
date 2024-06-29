@@ -1,0 +1,7 @@
+**Git** : version control system is a tool that helps to track changes in code
+ word count: 15
+--> popular
+ word count: 2
+--> free & Open Source
+ word count: 5
+--> fast and scalable word count: 4
